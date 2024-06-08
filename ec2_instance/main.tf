@@ -12,7 +12,7 @@ version = "~> 4.0"
 provider "aws" {
 region = "us-east-1"
 shared_config_files = ["C:/Users/danil/.aws/config.txt"]
-shared_credentials_files = ["C:/Users/danil/.aws/credentials.txt"]
+shared_credentials_files = ["C:/Users/danil/.aws/credentials"]
 profile = "default"
 }
 
