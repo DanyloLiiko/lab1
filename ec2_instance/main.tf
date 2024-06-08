@@ -11,8 +11,8 @@ version = "~> 4.0"
 # Configure AWS provider and creds
 provider "aws" {
 region = "us-east-1"
-shared_config_files = ["C:/Users/danil/.aws/config.txt"]
-shared_credentials_files = ["C:/Users/danil/.aws/credentials"]
+shared_config_files = ["../config.txt"]
+shared_credentials_files = ["../credentials"]
 profile = "default"
 }
 
